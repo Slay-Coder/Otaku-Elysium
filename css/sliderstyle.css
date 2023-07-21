@@ -1,0 +1,47 @@
+.bcontent {
+    margin-top: 10px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.info{
+    color: white;
+    width: 100%;
+    height: 70px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+.Ahead{
+    
+    background-image:linear-gradient(to right, rgb(6, 1, 11) , rgb(55, 7, 90));;
+    opacity: 5;
+    color: rgb(222, 171, 255);
+    font-weight: bold;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.youlinks{
+    background-image:linear-gradient(to right, rgb(6, 1, 11) , rgb(55, 7, 90));;
+    opacity: 5;
+    color: rgb(222, 171, 255);
+    font-weight: bold;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.carousel-caption a{
+    margin-left: 20px;
+}
+.carousel-caption a:hover{
+
+    background-color: #1e042f;
+    color:  rgb(119, 51, 164);
+    box-shadow: whitesmoke;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}

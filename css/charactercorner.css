@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  
+}
+
+nav {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #551871;
+  background-image: linear-gradient(to right, rgb(6, 1, 11), rgb(55, 7, 90));
+  opacity: 5;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  color: #2f0c4a;
+  background-color: #b375e3;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #2f0c4a;
+  color: #b375e3;
+  transition: 0.5s;
+}
+
+nav h1 {
+  color: rgb(222, 171, 255);
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+}
+body{
+  background-color: hsl(273, 80%, 12%);
+}
+  .character-card {
+    margin-top: 20px;
+    align-content: center;
+    height: 200px;
+    max-width: 800px;
+    min-width: 400px;
+    display: flex;
+    background-color: #b375e3;
+    border-radius: 8px;
+    border-image: linear-gradient(#ba60eb, #2f0741) 30;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto 20px; /* Updated */
+  }
+  
+  .character-card:hover {
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+  }
+  
+  .character-card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ 
+  }
+  
+  .character-card .character-info {
+    margin-left: 5px;
+    flex-grow: 1;
+  }
+  
+  .character-card h2 {
+    font-size: 20px;
+    color: #521d65;
+    margin-bottom: 10px;
+  }
+  
+  .character-card p {
+    color: #551871;
+    margin-bottom: 5px;
+  }
+  .character-card p.anime::before {
+    content: "Anime: ";
+    font-weight: bold;
+  } 
+  .character-card p.description::before {
+    content: "Description: ";
+    font-weight: bold;
+  }
+  
+  .footer{
+    padding: 40px 0;
+    background-color: black;
+    margin-bottom: none;
+}
+.footer p{
+    text-align: center;
+    color: #5c1b80;
+    margin-top:18px;
+}
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Otaku Elysium</title>
+  <link rel="shortcut icon" href="images/fav icon.png">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+  <button class="btn" onclick="myFunction()"><i class="fa fa-home"></i> </button>
+    <script>
+    function myFunction() {
+      window.location.href = "index.html";
+    }
+  </script>
+  
+  <div class="chat-container">
+    <div class="gojo">
+      <img src="images/gojo.png" >
+    </div>
+    <div class="message bot-message">
+      <p>Hello Weeb!! Tell me the name of the anime that you want to know about.</p>
+    </div>
+    <div class="user-input">
+      <input type="text" id="user-input" placeholder="Name" />
+        <button  class="button" onclick="sendMessage()"><p>Send</p></button></div>
+  </div>
+
+  <script src="animeData.js"></script>
+  <div class="footer">
+    <div class="social">
+        <p>Otaku Elysium @2023</p>
+    </div>
+</div>
+</body>
+</html>
